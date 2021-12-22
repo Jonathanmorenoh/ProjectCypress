@@ -1,3 +1,20 @@
+Cypress.Commands.add("login"/*Nombre del SCRIPT*/, function(email, password){
+   
+    //Copiamos el SCRIPT DEL SUITE CASE
+
+    cy.visit('https://admin-demo.nopcommerce.com/login');
+    cy.get('#Email').should('be.visible').clear().type(email);
+    cy.get('#Password').should('be.visible').clear().type(password);
+    cy.get('.button-1').click();
+})
+
+//}ENVIAMOS EL COMMAND "login" al Suite Test
+
+
+
+
+
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
