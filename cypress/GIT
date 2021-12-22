@@ -20,3 +20,5 @@ pwd         // ver en que directorio estamos
 
 git checkout --NOMBRE DEL ARCHIVO QUE QUIERO RETROCEDER EL CAMBIO
 
+git branch NOMBRE DE LA NUEVA RAMA
+git checkout NOMBRE DE LA NUEVA RAMA
